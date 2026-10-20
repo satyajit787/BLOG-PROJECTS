@@ -34,8 +34,8 @@ describe('L1: Secure Authentication & Role-Based Access Control Booking System T
       const res = await request(app)
         .post('/signup')
         .send({
-          username: 'rahul_sharma',
-          email: 'rahul@example.com',
+          username: 'kavish_patel',
+          email: 'kavish@example.com',
           password: 'Password@123'
         });
 
@@ -49,7 +49,7 @@ describe('L1: Secure Authentication & Role-Based Access Control Booking System T
       const res = await request(app)
         .post('/signup')
         .send({
-          username: 'admin_boss',
+          username: 'admin_super',
           email: 'admin@example.com',
           password: 'AdminPassword@123',
           role: 'admin'
@@ -63,8 +63,8 @@ describe('L1: Secure Authentication & Role-Based Access Control Booking System T
       const res = await request(app)
         .post('/signup')
         .send({
-          username: 'rahul_duplicate',
-          email: 'rahul@example.com',
+          username: 'kavish_duplicate',
+          email: 'kavish@example.com',
           password: 'Password@123'
         });
 
@@ -76,7 +76,7 @@ describe('L1: Secure Authentication & Role-Based Access Control Booking System T
       const res = await request(app)
         .post('/login')
         .send({
-          email: 'rahul@example.com',
+          email: 'kavish@example.com',
           password: 'Password@123'
         });
 
@@ -91,7 +91,7 @@ describe('L1: Secure Authentication & Role-Based Access Control Booking System T
       const res = await request(app)
         .post('/login')
         .send({
-          email: 'rahul@example.com',
+          email: 'kavish@example.com',
           password: 'WrongPassword'
         });
 

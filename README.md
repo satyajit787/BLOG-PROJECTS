@@ -109,8 +109,8 @@ npm test
 Request Body:
 ```json
 {
-  "username": "rahul_sharma",
-  "email": "rahul@example.com",
+  "username": "kavish_patel",
+  "email": "kavish@example.com",
   "password": "Password@123",
   "role": "user"
 }
@@ -121,8 +121,8 @@ Response (`201 Created`):
   "message": "User registered successfully",
   "user": {
     "id": "6724fa10b...",
-    "username": "rahul_sharma",
-    "email": "rahul@example.com",
+    "username": "kavish_patel",
+    "email": "kavish@example.com",
     "role": "user"
   }
 }
@@ -132,7 +132,7 @@ Response (`201 Created`):
 Request Body:
 ```json
 {
-  "email": "rahul@example.com",
+  "email": "kavish@example.com",
   "password": "Password@123"
 }
 ```
@@ -144,8 +144,8 @@ Response (`200 OK`):
   "refreshToken": "eyJhbGciOi...",
   "user": {
     "id": "6724fa10b...",
-    "username": "rahul_sharma",
-    "email": "rahul@example.com",
+    "username": "kavish_patel",
+    "email": "kavish@example.com",
     "role": "user"
   }
 }

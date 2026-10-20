@@ -20,7 +20,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"username\": \"johndoe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"UserPass@123\"\n}"
+              "raw": "{\n  \"username\": \"kavish_patel\",\n  \"email\": \"kavish@example.com\",\n  \"password\": \"UserPass@123\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/signup",
@@ -62,7 +62,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"email\": \"john@example.com\",\n  \"password\": \"UserPass@123\"\n}"
+              "raw": "{\n  \"email\": \"kavish@example.com\",\n  \"password\": \"UserPass@123\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/login",
